@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+body{
+    font-family: 'Cinzel', serif;
+    margin:0;
+    color: rgb(203,247,245)
+}
+
+header{
+    background: linear-gradient(#9fa7a7, #639adc, #335e99);
+}
+
+header nav{
+    padding: 20px 3% 0px 3%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1{
+    margin: 0;
+    font-size: 30px;
+}
+
+header nav .right{
+    display: flex;
+    align-items: center;
+}
+
+header nav .right p{
+    margin: 0 15px 0 0;
+    color: rgb(223, 252, 250);
+}
+
+header nav .right p:hover{
+    color:rgb(191, 217, 216);
+    cursor: pointer;
+}
+
+header nav .right button {
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: inherit;
+    border: 1px solid rgb(223, 252, 250);
+    color:rgb(223, 252, 250);
+    font-family: 'Cinzel', serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s, background-color 0.5s; 
+}
+
+header nav .right button:hover {
+    color: #9fa7a7;
+    background-color: rgb(223, 252, 250);
+}
+
+@media screen and (max-width: 640px){
+    header nav .right p{
+        display: none
+    }
+}
+
